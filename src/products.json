@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Kimono Venum",
+    "description": "tramado fino A0",
+    "price": 45000,
+    "thumbnail": "imgVenum",
+    "code": 111,
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "title": "Kimono Atama",
+    "description": "tramado grueso A1 ",
+    "price": 65000,
+    "thumbnail": "imgAtama",
+    "code": 222,
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "title": "Kimono Shiai",
+    "description": "Intermedio A2 ",
+    "price": 25000,
+    "thumbnail": "imgShiai",
+    "code": 333,
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "title": "Kimono RVC",
+    "description": "tramado grueso A3",
+    "price": 55000,
+    "thumbnail": "imgRVC",
+    "code": 444,
+    "stock": 25
+  },
+  {
+    "id": 5,
+    "title": "Lycra Fight Effect",
+    "description": "manga-corta ",
+    "price": 11500,
+    "thumbnail": "imgLycra",
+    "code": 555,
+    "stock": 9
+  },
+  {
+    "id": 6,
+    "title": "Lycra Venum",
+    "description": "manga-corta ",
+    "price": 13000,
+    "thumbnail": "imgLycra",
+    "code": 666,
+    "stock": 15
+  },
+  {
+    "id": 7,
+    "title": "Lycra Cicero-Costha",
+    "description": "manga-larga ",
+    "price": 8000,
+    "thumbnail": "imgLycra",
+    "code": 777,
+    "stock": 12
+  },
+  {
+    "id": 8,
+    "title": "Guantes MMA Proyec",
+    "description": "6 onzas ",
+    "price": 20000,
+    "thumbnail": "imgGuantes",
+    "code": 888,
+    "stock": 5
+  },
+  {
+    "id": 9,
+    "title": "Bermuda Venum",
+    "description": "Bermuda reforzada",
+    "price": 18000,
+    "thumbnail": "imgBermuda",
+    "code": 999,
+    "stock": 4
+  },
+  {
+    "id": 10,
+    "title": "Calza Venum",
+    "description": "calza-corta",
+    "price": 8500,
+    "thumbnail": "imgCalza",
+    "code": 1000,
+    "stock": 7
+  }
+]
