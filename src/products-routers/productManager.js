@@ -7,7 +7,7 @@ class ProductManager {
     async getProducts() {
         try {
 
-            return fs.readFileSync('./products.json', 'utf-8')
+            return fs.readFileSync('./src/products.json', 'utf-8')
             // 👆 PRODUCTOS DEL JSON.
         } catch (error) {
             console.log('error 👉', error)
@@ -15,10 +15,10 @@ class ProductManager {
     }
     async addProduct(newProduct) {
         let array = this.path
-         const products = fs.readFileSync('./products.json', 'utf-8')
+         const products = fs.readFileSync('./src/products.json', 'utf-8')
          array = JSON.parse(products)
         array.push(newProduct)
-        fs.writeFileSync('./products.json', JSON.stringify(array, null, 2), 'utf-8')
+        fs.writeFileSync('./src/products.json', JSON.stringify(array, null, 2), 'utf-8')
         return array
     }
     async updateProduct(newProduct) {

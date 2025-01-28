@@ -81,12 +81,14 @@
     "stock": 4
   },
   {
-    "id": 10,
-    "title": "Calza Venum",
+    "id": "21ee7be9-5200-43b9-ad05-46504a448fe2",
+    "title": "Venum",
     "description": "calza-corta",
-    "price": 8500,
-    "thumbnail": "imgCalza",
     "code": 1000,
-    "stock": 7
+    "price": 8500,
+    "status": true,
+    "stock": 7,
+    "category": "calzas",
+    "thumbnail": "imgCalza"
   }
 ]

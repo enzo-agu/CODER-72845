@@ -9,7 +9,7 @@ router.get('/products', async (req, res) => {
     const jsonProducts = await pM.getProducts() //👈  PRODUCTOS DEL JSON
     if (jsonProducts) {
         JSON.parse(jsonProducts)
-        res.status(200).send(`PRODUCTS <br><br> ${jsonProducts}`)
+        res.status(200).send(`PRODUCTS \n ${jsonProducts}`)
     }
     else {
         res.status(404).json({ message: 'You have to add products' })
